@@ -1,0 +1,84 @@
+{
+  "goal": {
+    "mode": "REGATTA",
+    "checkpoints": [
+      {
+        "type": "checkpoint",
+        "position": {
+          "x": 1890.4823989569727,
+          "y": -1738.2812500000007
+        },
+        "shape": {
+          "type": "circle",
+          "radius": 100
+        }
+      },
+      {
+        "type": "checkpoint",
+        "position": {
+          "x": -143.41590612777003,
+          "y": 1861.9791666666665
+        },
+        "shape": {
+          "type": "circle",
+          "radius": 100
+        }
+      }
+    ]
+  },
+  "ship": {
+    "name": "Vogue Merry",
+    "deck": {
+      "length": 4,
+      "width": 2
+    },
+    "entities": [
+      {
+        "type": "oar",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "oar",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "oar",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "oar",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "oar",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "type": "oar",
+        "x": 3,
+        "y": 1
+      }
+    ],
+    "life": 400
+  },
+  "startingPositions": [
+    {
+      "x": 0,
+      "y": 0,
+      "orientation": 0
+    }
+  ],
+  "wind": {
+    "direction": 0,
+    "strength": 0
+  },
+  "seaEntities": [],
+  "maxRound": 250,
+  "minumumCrewSize": 6,
+  "maximumCrewSize": 6
+}

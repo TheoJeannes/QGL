@@ -1,0 +1,73 @@
+{
+  "goal": {
+    "mode": "REGATTA",
+    "checkpoints": [
+      {
+        "position": {
+          "x": -869.5652173913059,
+          "y": 2052.1172638436483
+        },
+        "type": "checkpoint",
+        "shape": {
+          "type": "circle",
+          "radius": 100
+        }
+      }
+    ]
+  },
+  "ship": {
+    "name": "Moby Dick",
+    "life": 300,
+    "deck": {
+      "length": 4,
+      "width": 2
+    },
+    "entities": [
+      {
+        "type": "oar",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "type": "oar",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "type": "oar",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "type": "oar",
+        "x": 2,
+        "y": 1
+      },
+      {
+        "type": "oar",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "type": "oar",
+        "x": 3,
+        "y": 1
+      }
+    ]
+  },
+  "startingPositions": [
+    {
+      "x": 0,
+      "y": 0,
+      "orientation": 0
+    }
+  ],
+  "wind": {
+    "direction": 0,
+    "strength": 0
+  },
+  "seaEntities": [],
+  "maxRound": 250,
+  "minumumCrewSize": 6,
+  "maximumCrewSize": 6
+}

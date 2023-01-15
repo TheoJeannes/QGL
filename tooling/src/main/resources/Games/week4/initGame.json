@@ -1,0 +1,122 @@
+{
+  "goal": {
+    "mode": "REGATTA",
+    "checkpoints": [
+      {
+        "position": {
+          "x": 2279.6317218053687,
+          "y": 2879.047015765768,
+          "orientation": 0.0
+        },
+        "shape": {
+          "type": "circle",
+          "radius": 100.0
+        }
+      },
+      {
+        "position": {
+          "x": 2256.4589017735334,
+          "y": 1352.1959459459492,
+          "orientation": 0.0
+        },
+        "shape": {
+          "type": "circle",
+          "radius": 100.0
+        }
+      },
+      {
+        "position": {
+          "x": 3590.3073840382,
+          "y": 2221.734234234234,
+          "orientation": 0.0
+        },
+        "shape": {
+          "type": "circle",
+          "radius": 80.0
+        }
+      },
+      {
+        "position": {
+          "x": 2241.8126847430635,
+          "y": 1345.6855292792793,
+          "orientation": 0.0
+        },
+        "shape": {
+          "type": "circle",
+          "radius": 100.0
+        }
+      },
+      {
+        "position": {
+          "x": 1132.5943610732181,
+          "y": 2342.236768018018,
+          "orientation": 0.0
+        },
+        "shape": {
+          "type": "circle",
+          "radius": 80.0
+        }
+      }
+    ]
+  },
+  "ship": {
+    "name": "kihm",
+    "life": 300,
+    "deck": {
+      "length": 4,
+      "width": 3
+    },
+    "entities": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "oar"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "oar"
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "oar"
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "oar"
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "oar"
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "oar"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "rudder"
+      }
+    ]
+  },
+  "startingPositions": [
+    {
+      "x": 2185.3061761027725,
+      "y": -227.86458333333408,
+      "orientation": 1.5882496193148399
+    }
+  ],
+  "wind": {
+    "direction": 0,
+    "strength": 0
+  },
+  "seaEntities": [],
+  "maxRound": 300,
+  "minumumCrewSize": 7,
+  "maximumCrewSize": 7
+}

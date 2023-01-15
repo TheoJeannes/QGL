@@ -1,3 +1,10 @@
+#School Project
+
+This is a school project developped with other students.
+
+For this project, I implemented a A-Star algorithm to find the best path on a map, to develop a visual simulator to test this algorithm and to desrialize and serialize objects to create a Json.
+This also allow me to use SonarQube and Github Actions, to automate some tasks in the developpement of this project.
+
 # Qualité et Génie Logiciel - SI3 - 2021-2022 - KIHM
 
 ## La famille royale de l'IHM
